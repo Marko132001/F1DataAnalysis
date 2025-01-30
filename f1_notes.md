@@ -17,6 +17,13 @@
     - HARD (manje grip-a) - sporije vrijeme kruga , ali dulje trajanje
     - MEDIUM
 
+## Podaci
+
+- Podaci F1 staza (koordinate): 
+    - https://github.com/bacinger/f1-circuits
+- Telemetrijski podaci i detaljniji podaci o utrkama:
+    - https://github.com/theOehrly/Fast-F1
+
 ## Zadatak
 
 - $F$ vs $\kappa$
@@ -37,7 +44,7 @@
 
 - ### $\mu F = m_{bolid}a$
 
-- ### $\kappa = \frac{|f^{''}(x)|}{[1 + (f^{'}(x))^2]^{3/2}}$
+- ### $\kappa = \frac{|\dot{x}\ddot{y} - \dot{y}\ddot{x}|}{[\dot{x}^2 + \dot{y}^2]^{3/2}}$
     - Value span: [0, inf]
     - Low values (near 0): gradual curves
     - Higher values: Sharp turns/abrupt changes 
